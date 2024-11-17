@@ -66,24 +66,259 @@
                 <br>
 
                 <p>F - Número de Telefono</p>
-                <input type="tel" pattern="[0-9]{9}" placeholder="9 12345678">
+                <input type="tel" pattern="[0-9]{9}" placeholder="Ej = 9 12345678">
                 <br>
 
                 <p>G - Color Favorito </p>
                 <input type="color">
-                <br><br>
+                <br>
 
+                <p>H - ¿Cómo nos conociste?</p>
+                <ul>
+                    <li><input type="radio" name="FormH" id="FormH1">A través de un amigo</li>
+                    <li><input type="radio" name="FormH" id="FormH2">A través de un buscador</li>
+                    <li><input type="radio" name="FormH" id="FormH3">Navegando por la Red</li>
+                    <li><input type="radio" name="FormH" id="FormH4">Otros</li>
+                </ul>
+
+                <br>
+
+            </div>
+
+            <div class="primaryFormC">
+
+                <h3>1 - ¿Tiene Computadora en su casa?</h3>
+                <ul>
+                    <li><input type="radio" name="Form1" id="Fo11">Si</li>
+                    <li><input type="radio" name="Form1" id="Fo12">No</li>
+                </ul>
+
+                <h3>2 - ¿De qué tipo es?</h3>
+                <ul>
+                    <li><input type="radio" name="Form2" id="Fo21">Laptop</li>
+                    <li><input type="radio" name="Form2" id="Fo22">Escritorio</li>
+                </ul>
+
+                <h3>3 - ¿Cada cuando lleva su computadora a que le den mantenimiento (limpieza, corrección de errores, fallas en el funcionamiento)?</h3>
+                <ul>
+                    <li><input type="radio" name="Form3" id="Fo31">Cada Mes</li>
+                    <li><input type="radio" name="Form3" id="Fo32">Cada 3 Meses</li>
+                    <li><input type="radio" name="Form3" id="Fo33">Cuando no funciona la computadora</li>
+                </ul>
+
+                <h3>4 - ¿Qué sistema operativo tiene?</h3>
+                <ul>
+                    <li><input type="radio" name="Form4" id="Fo41">Windows 98</li>
+                    <li><input type="radio" name="Form4" id="Fo42">Windows XP</li>
+                    <li><input type="radio" name="Form4" id="Fo43">Windows Vista</li>
+                    <li><input type="radio" name="Form4" id="Fo44">Windows 7</li>
+                    <li><input type="radio" name="Form4" id="Fo45">Linux - Que Distribucion : <input type="text" name="linuxText"> </li>
+                    <li><input type="radio" name="Form4" id="Fo46">Otro - Especifique : <input type="text" name="otroText"></li>
+                </ul>
+
+                <h3>5 - Si usted lleva su computadora por fallas ¿Que falla es la más común, para acudir con el técnico?</h3>
+                <ul>
+                    <li><input type="radio" name="Form5" id="Fo51">No arranca la computadora</li>
+                    <li><input type="radio" name="Form5" id="Fo52">Virus</li>
+                    <li><input type="radio" name="Form5" id="Fo53">Falla de Componente Físico</li>
+                    <li><input type="radio" name="Form5" id="Fo51">Ralentización del Sistema (Se pone lento)</li>
+                    <li><input type="radio" name="Form5" id="Fo52">Otro - Especifique : <input type="text" name="otroText"> </li>
+                </ul>
+
+                <h3>6 - ¿Generalmente que le hacen en el técnico?</h3>
+                <ul>
+                    <li><input type="radio" name="Form6" id="Fo61">Limpieza</li>
+                    <li><input type="radio" name="Form6" id="Fo62">Reiniciar el Sistema</li>
+                    <li><input type="radio" name="Form6" id="Fo63">Vacuna de Virus</li>
+                    <li><input type="radio" name="Form6" id="Fo62">Otro - Especifique : <input type="text" name="otroText"> </li>
+                </ul>
+
+                <h3>7 - ¿Dónde lleva a que le den mantenimiento a su computadora?</h3>
+                <textarea placeholder="Escriba aqui..."></textarea>
+
+                <h3>8 - El servicio que le dan es : </h3>
+                <ul>
+                    <li><input type="radio" name="Form8" id="Fo81">Eficiente</li>
+                    <li><input type="radio" name="Form8" id="Fo82">Bueno</li>
+                    <li><input type="radio" name="Form8" id="Fo83">Malo</li>
+                </ul>
+
+                <h3>9 - El precio que le cobran por el servicio de mantenimiento se le hace : </h3>
+                <ul>
+                    <li><input type="radio" name="Form9" id="Fo91">Barato</li>
+                    <li><input type="radio" name="Form9" id="Fo92">Caro</li>
+                    <li><input type="radio" name="Form9" id="Fo93">Bien Cobrado</li>
+                </ul>
+
+                <h3>10 - ¿Ha pedido que le hagan software a medida?</h3>
+                <ul>
+                    <li><input type="radio" name="Form9" id="Fo101">Si</li>
+                    <li><input type="radio" name="Form9" id="Fo102">No</li>
+                </ul>
+
+                <h3>11 - ¿Cómo estima el sistema que le desarrollaron?</h3>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                    </tr>
+                    <tr>
+                        <td>Tamaño</td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                        <td><input type="radio" name="Form11" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Funcionalidad</td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                        <td><input type="radio" name="Form112" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Accesibilidad</td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                        <td><input type="radio" name="Form113" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Fiabilidad</td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                        <td><input type="radio" name="Form114" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Precio</td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                        <td><input type="radio" name="Form115" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Diseño</td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                        <td><input type="radio" name="Form116" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Calidad</td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                        <td><input type="radio" name="Form117" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Durabilidad</td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                        <td><input type="radio" name="Form118" id="Fo11"></td>
+                    </tr>
+                    <tr>
+                        <td>Comodidad</td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                        <td><input type="radio" name="Form119" id="Fo11"></td>
+                    </tr>
+                </table>
+
+                <h3>12 - ¿Qué tipo de programas utiliza?</h3>
+                <ul>
+                    <li><input type="radio" name="Form21" id="Fo121">Juegos</li>
+                    <li><input type="radio" name="Form21" id="Fo122">Suite Ofimática(ej : Office)</li>
+                    <li><input type="radio" name="Form21" id="Fo123">Sistemas Administrativos</li>
+                    <li><input type="radio" name="Form21" id="Fo124">Programas Web</li>
+                    <li><input type="radio" name="Form21" id="Fo125">Otro - Especifique : <input type="text" name="otroText"> </li>
+                </ul>
+
+
+                <h3>Tiene alguna sugerencia...</h3>
+                <textarea name="textAreaSug" placeholder="Escriba Aqui..."></textarea>
+
+                <h3>¿Cúanto navegas por intenet? (Señala la opción que más se acerque)</h3>
+                <label for="navNet">Opciones : </label>
+                <select name="navNet" id="navNet">
+                    <option value="2">2 Horas</option>
+                    <option value="4">4 Horas</option>
+                    <option value="6">6 Horas</option>
+                    <option value="mas">8 o más</option>
+                </select>
 
             </div>
 
 
-
-
-
-
-
             <br><br>
             <button type="submit" onclick="alert('Información Enviada')">Enviar</button>
+            <button type="submit" onclick="alert('Información Enviada')">Borrar Formulario</button>
+
 
         </form>
     </div>
