@@ -1,0 +1,33 @@
+*{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient( to right, #460645, #ff5450);
+}
+
+h1{
+    text-align: center;
+}
+
+.primaryForm{
+    background: linear-gradient(  45deg,#2fbdff,#ff7582);
+    border-radius: 2%;
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra de 5px a la derecha y abajo */
+}
+
+.primaryFormA{
+    border-bottom: 2px solid #000000; /* Borde negro sólido de 2px */
+
+}
+
+.primaryFormB{
+    border-bottom: 2px solid #000000; /* Borde negro sólido de 2px */
+
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <div class="primaryForm">
+        <form>
+            <div class="primaryFormA">
+                <br>
+                <label for="nombre">Nombre :</label>
+                <input type="text" placeholder ="Ingresa tu nombre" maxlength="25" autofocus required>
+                <br><br>
+
+                <label for="correo">Correo Electrónico :</label>
+                <input type="email" placeholder="ejemplo@gmail.com" required>
+
+                <br><br>
+                <label for="rut">Rut : </label>
+                <input type="number" max="99999999" min="1" placeholder="Ingrese su rut sin puntos"> - <input type="number" min="0" max="9">
+
+                <br><br>
+                <label for="facebook">Ingrese su Facebook : </label>
+                <input type="url" placeholder="Ingrese el Link de su Perfil">
+
+                <br><br>
+                <label for="direccion">Direccion : </label>
+                <input type="text" name="pais" placeholder="Pais"> - <input type="text" name="ciudad" placeholder="Ciudad"> - <input type="text" placeholder="Calle">
+
+                <br><br>
+                <label for="fecha">Fecha de Encuesta : </label>
+                <input type="date">
+                <br>
+                <label for="hora">Hora de Encuesta : </label>
+                <input type="time">
+                <br><br>
+            </div>
+
+            <div class="primaryFormB">
+
+                <p>A - Fecha y Hora de nacimiento</p>
+                <input type="date" name="fechaNacimiento" placeholder="Fecha">
+                <input type="time" name="horaNacimiento" placeholder="Hora">
+                <br>
+
+                <p>B - Mes</p>
+                <input type="month">
+                <br>
+                
+                <p>C - Semana</p>
+                <input type="week">
+                <br>
+
+                <p>D y E - Apreciación de la Página (-10 al 10)</p>
+                <label for="númeroAprecio">Número : </label> <input type="number" min="-10" max="10" placeholder="0">
+                <br>
+                <label for="intervaloAprecio">Intervalo : </label> <input type="range" min="0" max="10">
+                <br>
+
+                <p>F - Número de Telefono</p>
+                <input type="tel" pattern="[0-9]{9}" placeholder="9 12345678">
+                <br>
+
+                <p>G - Color Favorito </p>
+                <input type="color">
+                <br><br>
+
+
+            </div>
+
+
+
+
+
+
+
+            <br><br>
+            <button type="submit" onclick="alert('Información Enviada')">Enviar</button>
+
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
