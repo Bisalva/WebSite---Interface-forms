@@ -17,8 +17,8 @@ h1{
     justify-content: center;
     display: flex;
     padding: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra de 5px a la derecha y abajo */
 }
 
@@ -41,7 +41,22 @@ input[type="radio"]{
 button[type="submit"]{
     justify-content: center;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 15%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.7em 2em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.1);
+}
+button[type="reset"]{
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.7em 2em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.1);
+
+
 }
 
 ul{
@@ -49,7 +64,7 @@ ul{
 }
 
 table{
-    width: 80%;
+    background-color: blue;
 }
 
 textarea{

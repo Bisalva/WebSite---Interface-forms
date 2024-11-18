@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     
@@ -13,7 +14,7 @@
     </header>
 
     <div class="primaryForm">
-        <form>
+        <form id="formulario">
             <div class="primaryFormA">
                 <br>
                 <label for="nombre">Nombre :</label>
@@ -317,7 +318,7 @@
 
             <br><br>
             <button type="submit" onclick="alert('Información Enviada')">Enviar</button>
-            <button type="submit" onclick="alert('Información Enviada')">Borrar Formulario</button>
+            <button type="reset" onclick="borrarFormulario()">Borrar Formulario</button>
 
 
         </form>
